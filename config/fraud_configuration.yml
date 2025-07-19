@@ -1,0 +1,11 @@
+
+kafka:
+  server: "172.17.0.1"
+  port: "9092"
+  topics:
+    transactions: "cc.transactions"
+    fraud_alerts: "alerts.cc.fraud"
+
+spark:
+  app_name: "CC-Fraud-Detection"
+  checkpoint_location: "/tmp/spark_checkpoints/fraud_alerts"
